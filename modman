@@ -1,0 +1,6 @@
+app/code/community/MagentoRemotely/ReviewGatekeeper/Block/Product/View.php app/code/community/MagentoRemotely/ReviewGatekeeper/Block/Product/View.php
+app/code/community/MagentoRemotely/ReviewGatekeeper/Block/Product/View/List.php app/code/community/MagentoRemotely/ReviewGatekeeper/Block/Product/View/List.php
+app/code/community/MagentoRemotely/ReviewGatekeeper/Helper/Data.php app/code/community/MagentoRemotely/ReviewGatekeeper/Helper/Data.php
+app/code/community/MagentoRemotely/ReviewGatekeeper/etc/config.xml app/code/community/MagentoRemotely/ReviewGatekeeper/etc/config.xml
+app/code/community/MagentoRemotely/ReviewGatekeeper/etc/system.xml app/code/community/MagentoRemotely/ReviewGatekeeper/etc/system.xml
+app/etc/modules/MagentoRemotely_ReviewGatekeeper.xml app/etc/modules/MagentoRemotely_ReviewGatekeeper.xml
