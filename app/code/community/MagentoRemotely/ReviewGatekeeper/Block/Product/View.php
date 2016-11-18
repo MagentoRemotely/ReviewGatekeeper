@@ -1,0 +1,1 @@
+../../../../../../../.modman/mg/app/code/community/MagentoRemotely/ReviewGatekeeper/Block/Product/View.php
