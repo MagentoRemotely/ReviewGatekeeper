@@ -1,1 +1,43 @@
-../../../../../../.modman/mg/app/code/community/MagentoRemotely/ReviewGatekeeper/etc/system.xml
+<config>
+    <tabs>
+        <reviewgate>
+            <label>Review Gatekeeper</label>
+            <sort_order>10</sort_order>
+        </reviewgate>
+    </tabs>
+    <sections>
+        <reviewgate>
+            <label>Configuration</label>
+            <tab>reviewgate</tab>
+            <frontend_type>text</frontend_type>
+            <sort_order>777</sort_order>
+            <show_in_default>1</show_in_default>
+            <show_in_website>1</show_in_website>
+            <show_in_store>1</show_in_store>
+            <groups>
+                <reviewgate>
+                    <label>Bypass Review Moderation</label>
+                    <frontend_type>text</frontend_type>
+                    <sort_order>140</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+                    <fields>
+                        <reviewgate>
+                            <label>Enable:</label>
+                            <comment></comment>
+                            <frontend_type>select</frontend_type>
+                            <sort_order>210</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <can_be_empty>1</can_be_empty>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                            <!--<source_model>allcurrency/type</source_model>-->
+                        </reviewgate>
+                    </fields>
+                </reviewgate>
+            </groups>
+        </reviewgate>
+    </sections>
+</config>

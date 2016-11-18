@@ -1,1 +1,29 @@
-../../../../../../.modman/mg/app/code/community/MagentoRemotely/ReviewGatekeeper/etc/config.xml
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <MagentoRemotely_ReviewGatekeeper>
+            <version>0.1.0</version>
+        </MagentoRemotely_ReviewGatekeeper>
+    </modules>
+    <global>
+        <models>
+            <magentoremotely_reviewgatekeeper>
+                <class>MagentoRemotely_ReviewGatekeeper_Model</class>
+                <resourceModel>magentoremotely_reviewgatekeeper_resource</resourceModel>
+            </magentoremotely_reviewgatekeeper>
+            <magentoremotely_reviewgatekeeper_resource>
+                <class>MagentoRemotely_ReviewGatekeeper_Model_Resource</class>
+            </magentoremotely_reviewgatekeeper_resource>
+        </models>
+        <blocks>
+            <magentoremotely_reviewgatekeeper>
+                <class>MagentoRemotely_ReviewGatekeeper_Block</class>
+            </magentoremotely_reviewgatekeeper>
+        </blocks>
+        <helpers>
+            <magentoremotely_reviewgatekeeper>
+                <class>MagentoRemotely_ReviewGatekeeper_Helper</class>
+            </magentoremotely_reviewgatekeeper>
+        </helpers>
+    </global>
+</config>
